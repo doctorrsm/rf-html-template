@@ -1,0 +1,22 @@
+<script locals>
+  module.exports = {
+
+    name: locals.name
+  }
+
+</script>
+
+<extends src="./src/html/layouts/index.html"/>
+
+<block name="header"></block>
+
+<block name="content">
+    <section>
+        <h1>{{name}}</h1>
+    </section>
+    <include src="./src/html/sections/section1.html"></include>
+       <include src="./src/html/sections/html.html"></include>
+    <include src="./src/html/sections/css.html"></include>
+    <section>Это третья секция</section>
+
+</block>

@@ -1,0 +1,13 @@
+@use "../abstracts/colors";
+* {
+  outline: 1px dashed greenyellow;
+}
+
+body {
+  background-color: colors.$dun;
+  color: colors.$jet;
+}
+
+*:hover {
+  outline-color: darkred;
+}
